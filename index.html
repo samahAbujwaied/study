@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form action="" id="form">
+    <fieldset>
+      <legend> Personal information </legend>
+
+      <div class="box">
+        <label for="username">User Name</label>
+        <input  required id="username" name="username" placeholder="enter your name" type="text">
+      </div>
+      <div class="box">
+        <label for="userage">User Age</label>
+        <input  required id="userage" name="userage" placeholder="enter your age" type="text">
+      </div>
+      <div class="box">
+
+        <label for="usergender">User Gender</label>
+<br>
+        <label for="male">Male</label>
+        <input required id="male" name="gender" type="radio" value="male">
+    <br>
+        <label for="female">Female</label>
+        <input required id="female" name="gender" type="radio" value="female">
+      </div>
+      <div class="box">
+
+        <label for="major"> Major</label>
+        <select required name="major" id="major" type="major">
+          <option value="computer scince">computer scince</option>
+          <option value="software engineer">software engineer</option>
+          <option value="computer information system ">computer information system</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      <div  class="box">
+        <label for="skills">skills</label>
+        <br>
+        <textarea  required name="skills" id="skills" cols="50" rows="10" placeholder="enter your skills"></textarea>
+
+      </div>
+      <div class="box">
+
+        <input id="submit" type="submit" value="Submit">
+      </div>
+    </fieldset>
+  </form>
+  <div id="table"></div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
